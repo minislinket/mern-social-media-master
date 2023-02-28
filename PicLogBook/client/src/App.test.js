@@ -1,7 +1,7 @@
 import renderer from "react-test-renderer";
-import LoginPage from "./src/scenes/loginPage";
+import HomePage from "./scenes/homePage/index.jsx";
 
 test("snapshot of login page", () => {
-    const tree = renderer.create(<LoginPage />).toJSON();
+    const tree = renderer.create(<HomePage />).toJSON();
     Experimental_CssVarsProvider(tree).toMatchSnapshot();
 });
