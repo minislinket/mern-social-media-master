@@ -67,3 +67,5 @@ No API keys were needed for the usage of this application. User passwords are sa
 ## Deployment
 This application is not deployed due to Heroku not being free by the time of creating this app.
 #
+
+# i cannot setup google login because i cannot deploy to heroku. 
